@@ -60,7 +60,7 @@ export const Canvas = () => {
 				if (counterRef.current < 600) {
 					animCancel = window.requestAnimationFrame(render);
 				}
-			}, 1000 / 30);
+			}, 1000 / 40);
 		};
 
 		if (click) {
