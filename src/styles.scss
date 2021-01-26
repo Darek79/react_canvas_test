@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,12 +8,22 @@
   font-family: sans-serif;
   text-align: center;
 
-  
-.canvas_wrapper{
-  width: 100vw;
-  height: 50vh;
+  .canvas_wrapper {
+    width: 100vw;
+    height: 50vh;
 
-  border:1px solid blue;
-  
-}
+    border: 1px solid blue;
+  }
+  .img_can_wrapper {
+    width: 100vw;
+    height: 50vh;
+    border: 1px solid blue;
+    .img_canvas {
+      border: 1px solid red;
+    }
+    // .img {
+    //   width: 50%;
+    //   max-height: 100%;
+    // }
+  }
 }
